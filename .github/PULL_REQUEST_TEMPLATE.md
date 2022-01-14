@@ -1,9 +1,9 @@
-# Description (Include relevant motivation and context)
+# Description <!-- Include relevant motivation and context -->
 
 _Summary of the change here_
 
 
-## Type of change (Delete options that are not relevant)
+## Type of change <!-- Delete options that are not relevant -->
 
 - [ ] Bug fix (non-breaking change which fixes an issue)
 - [ ] New feature (non-breaking change which adds functionality)
@@ -11,7 +11,7 @@ _Summary of the change here_
 - [ ] This change requires a documentation update
 
 
-# How Has This Been Tested? (Include details of any tests to verify your changes)
+# How Has This Been Tested? <!-- Include details of any tests to verify your changes -->
 
 - [X] Works locally
 - [ ] Tested in production

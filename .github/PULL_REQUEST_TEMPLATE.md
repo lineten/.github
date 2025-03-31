@@ -30,4 +30,5 @@ _Summary of the change here_
 - [ ] New and existing unit tests pass locally with my changes
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] Any dependencies that are required for this change are listed
+- [ ] Security review on code has been conducted
 - [X] All relevant items above have been checked

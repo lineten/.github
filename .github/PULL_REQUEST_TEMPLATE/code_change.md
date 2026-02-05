@@ -10,12 +10,10 @@ _Summary of the change here_
 - [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
 - [ ] This change requires a documentation update
 
-
 # How Has This Been Tested? <!-- Include details of any tests to verify your changes -->
 
 - [X] Works locally
 - [ ] Tested in production
-
 
 # Checklist:
 

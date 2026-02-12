@@ -26,7 +26,52 @@ _Summary of the change and why it was made_
 ---
 
 <details>
-<summary><strong>Code Change Checklist</strong> (expand if applicable)</summary>
+<summary><strong>Secure Development Checklist</strong> (expand if applicable)</summary>
+
+### Design and Scope
+
+- [ ] Change scope is defined and limited
+- [ ] No unintended impact to other regions / tenants
+- [ ] Security implications considered during design
+
+### Data & Access
+
+- [ ] No hardcoded secrets
+- [ ] Credentials stored in approved secret store
+- [ ] Least privilege applied where applicable
+- [ ] No sensitive data exposed in logs
+
+### Dependencies & Code
+
+- [ ] Approved libraries / frameworks used
+- [ ] No untrusted external code introduced
+- [ ] Input validation considered where applicable
+- [ ] Error handling does not leak system detail
+
+### Environments & Deployment
+
+- [ ] Change tested in non-production
+- [ ] Deployment follows standard release process
+- [ ] Environment segregation maintained
+- [ ] Rollback possible if required
+
+### Change Control
+
+- [ ] Work linked to Jira ticket
+- [ ] PR reviewed before merge
+- [ ] Change traceable to requester / business need
+
+### Risk Containment
+
+- [ ] Rollout scope defined (e.g. region, client, POC)
+- [ ] No global impact from localised change
+- [ ] Feature can be disabled if required
+
+### Logging & Monitoring
+
+- [ ] Relevant events logged
+- [ ] No sensitive data logged
+- [ ] Monitoring impact considered
 
 ### Testing
 

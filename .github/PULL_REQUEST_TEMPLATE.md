@@ -39,7 +39,6 @@ _Summary of the change and why it was made_
 - [ ] No hardcoded secrets
 - [ ] Credentials stored in approved secret store
 - [ ] Least privilege applied where applicable
-- [ ] No sensitive data exposed in logs
 
 ### Dependencies & Code
 
@@ -57,7 +56,6 @@ _Summary of the change and why it was made_
 
 ### Change Control
 
-- [ ] Work linked to Jira ticket
 - [ ] PR reviewed before merge
 - [ ] Change traceable to requester / business need
 
